@@ -18,7 +18,10 @@ The **Student Course Hub** is a web-based application designed to manage univers
 ### Staff Features
 - **Staff Directory**: View staff profiles, including job titles, contact information, and biographies.
 
+# Student Course Hub
+
 ## Project Structure
+```
 │   index.php
 │   README.md
 │   student_course_hub.sql       
@@ -58,24 +61,7 @@ The **Student Course Hub** is a web-based application designed to manage univers
 │   └───assets
 │       └───img
 │               CTEC2712-01-HCI-Intro.pptx
-│               teacher1.jpg
-│               teacher10.jpg
-│               teacher11.jpg
-│               teacher12.jpg
-│               teacher13.jpg
-│               teacher14.jpg
-│               teacher15.jpg
-│               teacher16.jpg
-│               teacher18.jpg
-│               teacher19.jpg
-│               teacher2.jpg
-│               teacher20.jpg
-│               teacher3.jpg
-│               teacher4.jpg
-│               teacher5.jpg
-│               teacher7.jpg
-│               teacher8.jpg
-│               teacher9.jpg
+│               teacher1.jpg - teacher20.jpg
 │
 ├───images
 │       fb.png
@@ -103,23 +89,5 @@ The **Student Course Hub** is a web-based application designed to manage univers
     │   staff_details.php
     │
     └───staff_photo
-            alice.jpg
-            benjamin.jpg
-            Brian.jpg
-            carol.jpg
-            chloe.jpg
-            daniel.jpg
-            David.jpg
-            emily.jpg
-            emma.jpg
-            frank.jpg
-            grace.jpg
-            henry.jpg
-            irene.jpg
-            james.jpg
-            nathan.jpg
-            olivia.jpg
-            samuel.jpg
-            sophia.jpg
-            victoria.jpg
-            william.jpg
+            alice.jpg - william.jpg
+```

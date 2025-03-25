@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  
 
 
- $sql = "INSERT INTO modules (ModuleName, ModuleLeaderId,Description ) VALUES 
+ $sql = "INSERT INTO Modules (ModuleName, ModuleLeaderId,Description ) VALUES 
  ('$module_Name', '$moduleLeader','$description')";
 
  if($conn->query($sql)===True){

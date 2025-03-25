@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ .'/../database/db.php'; // Include database connection
 
-$query = "SELECT * FROM modules";
+$query = "SELECT * FROM Modules";
 $result = $conn->query($query);
 ?>
 

@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  
 
 
- $sql = "INSERT INTO programmes (ProgrammeName, LevelID, ProgrammeLeaderId,Description ) VALUES 
+ $sql = "INSERT INTO Programmes (ProgrammeName, LevelID, ProgrammeLeaderId,Description ) VALUES 
  ('$programme_Name', '$levelID', '$moduleLeader','$description')";
 
  if($conn->query($sql)===True){
