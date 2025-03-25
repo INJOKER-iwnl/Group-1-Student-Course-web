@@ -19,3 +19,107 @@ The **Student Course Hub** is a web-based application designed to manage univers
 - **Staff Directory**: View staff profiles, including job titles, contact information, and biographies.
 
 ## Project Structure
+│   index.php
+│   README.md
+│   student_course_hub.sql       
+│   style.css
+│   
+├───admin
+│   │   add_modules.php
+│   │   add_programmes.php       
+│   │   dashboard.php
+│   │   dashboardprim.html       
+│   │   edit_programmes.php      
+│   │   module.php
+│   │   programme.php
+│   │   publish_unpublish.php    
+│   │   save_modules.php
+│   │   save_programmes.php      
+│   │   
+│   └───assets
+│       └───css
+│               addmod.css
+│               addpro.css
+│               dash.css
+│               dash2.css
+│
+├───Courses
+│       courses.php
+│       courses_front.php
+│       db_connect.php
+│       styles.css
+│
+├───database
+│   │   db.php
+│   │   migration.php
+│   │   staff.php
+│   │   user.php
+│   │
+│   └───assets
+│       └───img
+│               CTEC2712-01-HCI-Intro.pptx
+│               teacher1.jpg
+│               teacher10.jpg
+│               teacher11.jpg
+│               teacher12.jpg
+│               teacher13.jpg
+│               teacher14.jpg
+│               teacher15.jpg
+│               teacher16.jpg
+│               teacher18.jpg
+│               teacher19.jpg
+│               teacher2.jpg
+│               teacher20.jpg
+│               teacher3.jpg
+│               teacher4.jpg
+│               teacher5.jpg
+│               teacher7.jpg
+│               teacher8.jpg
+│               teacher9.jpg
+│
+├───images
+│       fb.png
+│       in.png
+│       insta.jpg
+│       ss.jpg
+│       twit.png
+│
+├───login
+│       db_connect.php
+│       login.php
+│       registration.php
+│
+├───registration
+│       db_connect.php
+│       mailing_list.php
+│       register.php
+│       register_front.php
+│       unregister.php
+│       unregister_front.php
+│
+└───staff
+    │   db_connect.php
+    │   staff.php
+    │   staff_details.php
+    │
+    └───staff_photo
+            alice.jpg
+            benjamin.jpg
+            Brian.jpg
+            carol.jpg
+            chloe.jpg
+            daniel.jpg
+            David.jpg
+            emily.jpg
+            emma.jpg
+            frank.jpg
+            grace.jpg
+            henry.jpg
+            irene.jpg
+            james.jpg
+            nathan.jpg
+            olivia.jpg
+            samuel.jpg
+            sophia.jpg
+            victoria.jpg
+            william.jpg
